@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+    .container {
+      width: 768px; 
+    }
+    .header {
+      width: 100%;
+      background: url("img/headerBackground.png"), 50% center / cover no-repeat lightgray;
+    }
+    .manu_top { 
+      width: 100%;
+      justify-content: space-around;
+    }
+    .right {
+      justify-content: space-around;
+      width: 20%;
+    }
+    .main_manu {
+      width: 89%;
+      margin: auto;
+    }
+    .logo {
+      width: 140px; 
+      height: 80px;
+    }
+    .logo img {
+      width: 83%;
+    }
+    .main_manu > ul > li > a {
+      margin: 0px 7px;
+      font-size: 13px;
+    }
+    .header_hero {
+      justify-content: space-between;
+      height: 778px;
+      width: 100%;
+      position: absolute;
+      overflow: hidden;
+    }
+    .hro_content {
+      height: 348px;
+      width: 355px;
+      position: relative;
+      left: 30px;
+      top: -30px;
+    }
+    .hro_content > h1 {
+      font-size: 26.25px;
+    }
+    .hro_content > p { 
+      width: 330px;
+      height: 66px;
+      font-size: 12px;
+    }
+    .hro_content > h3 {
+      font-size: 16px; 
+    }
+    .hero_l {
+      width: 50%;
+    }
+    .hero_l::after {
+      width: 352px;
+      height: 391px;
+    }
+    .hero_r {
+      width: 60%;
+      height: 600px;
+      position: absolute;
+      margin: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      left: 438px;
+    }
+    .hero_r img {
+      width: 100%; 
+      height: auto;
+    }
+    .singlebox {
+      width: 391px; 
+      height: 110px;
+    }
+    .download_cont {
+      overflow: hidden; 
+    }
+    .dwnl { 
+      width: 50%;
+    }
+    .dwnr {
+      width: 40%;
+    }
+  }
+  

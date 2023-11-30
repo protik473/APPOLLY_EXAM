@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Root CSS CODE STAER HERE */
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --royalblue: #5956e9;
+    --black: #232233;
+    --gray-paragraph: #6c6c72;
+    --white: #ffffff;
+  
+    /* Fonts */
+    --h-1-61-04-px: 700 61.04px "JosefinSans-Bold", sans-serif;
+    --h-2-48-83-px: 700 48.83px/130% "JosefinSans-Bold", sans-serif;
+    --h-3-39-06-px: 600 39.06px/58.5px "JosefinSans-SemiBold", sans-serif;
+    --h-4-31-25-px: 700 31.25px/47.25px "JosefinSans-Bold", sans-serif;
+    --h-5-25-px: 600 25px/37.5px "JosefinSans-SemiBold", sans-serif;
+    --h-6-20-px: 600 20px/30px "JosefinSans-SemiBold", sans-serif;
+    --h-7-16-px-paragraph-text: 400 16px/24px "JosefinSans-Regular", sans-serif;
+    --h-8-12-8: 300 12.8px "JosefinSans-Light", sans-serif;
+  
+    /* Effects */
+    --effect-1-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    --effect-2-box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
+  }
+  
+/* Root CSS CODE end HERE */
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+body {
+    font-family: "Josefin Sans";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.button {
+    width: 158px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(89, 86, 233);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.header {
+    width: 100%;
+    height: 1024px;
+    margin: 0px 0px 45px;
+    background: url("img/headerBackground.png"), 50% center / cover no-repeat lightgray;
+}
+
+.manu_top {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.left i {
+    margin: 4px 10px;
+}
+
+.right {
+    width: 10%;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main_manu {
+    display: flex;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_manu > ul > li > a {
+    color: rgb(35, 34, 51);
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0px 35px;
+}
+
+.main_manu > .left_manu, .right_manu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--White, #FFF);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.header_hero {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.hero_l, .hero_r {
+    width: 50%;
+}
+
+.hero_l {
+    position: relative;
+}
+
+.hero_l::after {
+    content: "";
+    width: 570px;
+    height: 535px;
+    border: 18px solid rgb(117, 114, 255);
+    position: absolute;
+    top: -69px;
+    left: 38px;
+}
+
+.hro_content {
+    background: var(--White, #FFF);
+    width: 570px;
+    height: 432px;
+    padding: 0px 30px;
+    position: relative;
+    z-index: 999;
+}
+
+.hro_content h3 {
+    color: var(--Black, #232233);
+    font-family: "Josefin Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.hro_content h1 {
+    color: var(--Royal-blue, #5956E9);
+    font-family: "Josefin Sans";
+    font-size: 46.83px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding: 29px 0px 16px;
+}
+
+.hro_content p {
+    color: var(--gray-paragraph, #6C6C72);
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 487px;
+    height: 66px;
+    margin-bottom: 30px;
+}
+
+.hero_r {
+    width: 646px;
+    height: 725px;
+    background: url("img/Free Ui View Mobile App Mockup 1.png"), 50% center / cover no-repeat;
+    margin-left: 190px;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    padding: 62px 0px;
+}
+
+.about_title h1 {
+    color: var(--Black, #232233);
+    font-family: "Josefin Sans";
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47.25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about_title p {
+    width: 601px;
+    height: 70px;
+    color: var(--gray-paragraph, #6C6C72);
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.l_about {
+    width: 386px;
+    height: 526px;
+    flex-shrink: 0;
+    background: url("img/android-smartphone-free-mockup 1.png"), 50% center / cover no-repeat;
+}
+
+.about_dis {
+    display: flex;
+    color: black;
+    justify-content: space-around;
+}
+
+.singlebox {
+    width: 570px;
+    height: 160px;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 15px 0px;
+}
+
+.singlebox icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.singlebox .icon i {
+    font-size: 23px;
+    margin: 4px 0px;
+    color: rgba(0, 36, 255, 0.61) !important;
+}
+
+.singlebox .dtls .title {
+    color: var(--Black, #232233);
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.singlebox .dtls p {
+    width: 491px;
+    height: 67px;
+    flex-shrink: 0;
+    color: var(--gray-paragraph, #6C6C72);
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* ================================== app features designing here ====================== */
+section.app_screen {
+    padding: 58px 0px;
+}
+.app_features{
+    background: url("img/Rectangle 14.png");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+.app_titleDs h1{
+    color: var(--White, #FFF);
+    font-family: Josefin Sans;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px; 
+    text-transform: uppercase;
+    font-style: normal;
+}
+.app_features p{
+    height: 70px;
+    color: var(--White, #FFF);
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.middle_img{
+    width: 375px;
+    height: 812px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    box-shadow: 0px  54px 0px rgba(24, 48, 63, 0.50);
+    left: 400px;
+    top: 2490px;
+}
+.middle_img img {
+    position: relative;
+    height: 116%;
+    left: -58px;
+    width: 152%;
+}
+.midle_cnt{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.main_appFeatu {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.app_titleDs {
+    width: 601px;
+    margin: 60px 0px;
+}
+.chat,.support {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    align-items: center;
+}
+.app_single p {
+    width: 297px;
+}
+.app_left, .app_right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+}
+.app_left .uf , .ui {
+    text-align: end;
+}
+.app_single h1 {
+    color: var(--White, #FFF);
+    font-family: Josefin Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-transform: uppercase;
+}
+.chat {
+    margin-bottom: 30px;
+}
+
+.support {
+    margin-top: 41px;
+}
+/* app interface layout styling here */
+.app-screen-shot {
+  width: 100%;
+  height: 883px;
+  position: relative;
+  overflow: hidden;
+}
+.app_screen_td {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.app-interface_title {
+  color: var(--black, #232233);
+  text-align: left;
+  font: var(--h-4-31-25-px, 700 31.25px/47.25px "JosefinSans-Bold", sans-serif);
+  text-transform: uppercase;
+}
+.app-interface_discriptions {
+  color: var(--gray-paragraph, #6c6c72);
+  text-align: center;
+  font: var(--h-7-16-px-paragraph-text, 400 16px/24px "JosefinSans-Regular", sans-serif );
+  width: 601px;
+}
+.app-screenshort {
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  display: flex;
+}
+._004 {
+  border-radius: 40px;
+  width: 225px;
+  height: 532px;
+  position: absolute;
+  left: 854px;
+  top: 246px;
+  box-shadow: var(--effect-1-box-shadow, 0px 1px 10px 0px rgba(0, 0, 0, 0.1));
+}
+.i-phone-x-mockup-1 {
+  width: 319px;
+  height: 622px;
+  position: absolute;
+  left: 437px;
+  top: 201px;
+}
+._000 {
+  width: 246px;
+  height: 532px;
+  position: absolute;
+  left: 88px;
+  top: 246px;
+  box-shadow: var(--effect-1-box-shadow, 0px 1px 10px 0px rgba(0, 0, 0, 0.1));
+}
+._003 {
+  width: 246px;
+  height: 532px;
+  position: absolute;
+  left: 179px;
+  top: 246px;
+  box-shadow: var(--effect-1-box-shadow, 0px 1px 10px 0px rgba(0, 0, 0, 0.1));
+}
+._001 {
+  width: 245px;
+  height: 532px;
+  position: absolute;
+  left: 753px;
+  top: 246px;
+  box-shadow: var(--effect-1-box-shadow, 0px 1px 10px 0px rgba(0, 0, 0, 0.1));
+}
+.left-icon {
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--Royal-blue, #5956E9);
+    filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.10));
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #5956E9;
+    position: absolute;
+    top: 525px;
+    margin-left: 0px;
+}
+.right-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--Royal-blue, #5956E9);
+    filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.10));
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #FFF;
+    top: 550px;
+    position: absolute;
+    left: 1105px;
+}
+.slider {
+  top: 842px;
+  position: absolute;
+  left: 550px;
+}
+/* Download Section Styling Here */
+.download_cont {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.download_titleDis h1 {
+    color: var(--Black, #232233);
+    font-family: Josefin Sans;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+
+.download_titleDis p {
+    color: var(--gray-paragraph, #6C6C72);
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 570px;
+    height: 87px;
+}
+
+.download_titleDis {
+    margin: 0px 0px 25px 0px;
+}
+
+.download_link {
+    margin: 38px 0px;
+}
+.download_flex {
+    display: flex;
+}
+.download_single_box {
+    width: 170px;
+    height: 176px;
+    border-radius: 10px;
+    background: var(--Royal-blue, #5851EA);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 64px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.box_dtls h4 {
+    color: var(--White, #FFF);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.box_dtls p {
+    color: var(--White, #FFF);
+    font-family: Josefin Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.download_single_box.icon {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+}
+
+.download_single_box .icon i {
+    color: #FFF;
+    font-size: 26px;
+}
+.box_dtls {
+    line-height: 45px;
+}
+/* how to use section desinging start here  */
+.howtouse{
+    background: url("img/Rectangle 15.png");
+    height: 477px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.use_title h1 {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47.25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.use_title p {
+    width: 601px;
+    height: 70px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.use_content {
+    padding: 40px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
