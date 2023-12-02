@@ -81,86 +81,128 @@
       height: 110px;
     }
 /*ABOUT SECTION RESPONSIVE DESIGN START HERE*/
-.about {
-    width: 100%;
-    height: auto;
-    background: rgb(255, 255, 255);
-    overflow: hidden;
-    padding: 62px 0px;
-}
-
-.about_title h1 {
-    color: var(--Black, #232233);
-    font-family: "Josefin Sans";
-    font-size: 31.25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 47.25px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.about_title p {
-    width: 601px;
-    height: 70px;
-    color: var(--gray-paragraph, #6C6C72);
-    text-align: center;
-    font-family: "Josefin Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.about_title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.l_about {
-    width: 375px;
-    height: 520px;
-    transform:scale(.7);
-    margin-top:-80px;
-}
-
-.about_dis {
-    display: flex;
-    color: black;
-    justify-content: space-between;
-}
-
-.singlebox {
-    width: 380px;
-    margin-right: 120px ;
-}
-
-.singlebox icon {
-    display: flex;
-    width: 22px;
-    height: 22px;
-    justify-content: center;
-    align-items: center;
-}
-
-.singlebox .icon i {
-    font-size: 22px;
-    margin: 4px 7px;    padding: o 10px;
-    color: rgba(0, 36, 255, 0.61) !important;
-}
-
-.singlebox .dtls .title {
-    font-size: 18px;
-}
-
-.singlebox .dtls p {
-    width: 345px;
-    height: 67px;
-    font-size: 14px;
-    line-height: 14px;
-}
+    .about {
+        width: 100%;
+        height: auto;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        padding: 62px 0px;
+    }
+    
+    .about_title h1 {
+        color: var(--Black, #232233);
+        font-family: "Josefin Sans";
+        font-size: 31.25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47.25px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .about_title p {
+        width: 601px;
+        height: 70px;
+        color: var(--gray-paragraph, #6C6C72);
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .about_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .l_about {
+        width: 375px;
+        height: 520px;
+        transform:scale(.7);
+        margin-top:-80px;
+    }
+    
+    .about_dis {
+        display: flex;
+        color: black;
+        justify-content: space-between;
+    }
+    
+    .singlebox {
+        width: 380px;
+        margin-right: 120px ;
+    }
+    
+    .singlebox icon {
+        display: flex;
+        width: 22px;
+        height: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .singlebox .icon i {
+        font-size: 22px;
+        margin: 4px 7px;    padding: o 10px;
+        color: rgba(0, 36, 255, 0.61) !important;
+    }
+    
+    .singlebox .dtls .title {
+        font-size: 18px;
+    }
+    
+    .singlebox .dtls p {
+        width: 345px;
+        height: 67px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    /* ================================== app features designing here ====================== */
+    section.app_screen {
+        padding: 58px 0px;
+    }
+    .middle_img{
+        width: 210px;
+        height: 480px;
+    }
+    .middle_img img {
+        left: -30px;
+    }
+    .app_single{
+        width:250px;
+    }
+    
+    .app_titleDs {
+        width: 500px;
+        margin: 60px 0px;
+    }
+    .app_single p {
+        width: 250px;
+    }
+    .app_left, .app_right {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: space-around;
+    }
+    .app_left .uf , .ui {
+        text-align: end;
+    }
+    .app_single h1 {
+        font-size: 20px;
+        widht:260px;
+    }
+    .chat {
+        margin-bottom: 30px;
+    }
+    
+    .support {
+        margin-top: 41px;
+    }
 
 
 
