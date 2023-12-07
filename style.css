@@ -1024,7 +1024,11 @@ section.contact {
 .footer{
     background: #232233;
     position: relative;
-    top: 800px;
+    top: 704px;
     margin: 50px 0;
     padding: 50px 0;
+    z-index: -1;
+}
+.footer_content {
+    margin-top: 175px;
 }
