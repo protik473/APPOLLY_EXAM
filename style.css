@@ -1083,6 +1083,7 @@ ul li a {
     border: none;
     outline: none;
     width: 95%;
+    font-size:16px;
 }
 
 .sub_input i {
